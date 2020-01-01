@@ -13,18 +13,18 @@ let getRandomNumber = size => {
   // devuelve un string dependiendo de la distancia
   let getDistanceHint = distance => {
     if (distance < 30) {
-      return "Boiling hot!";
+      return "hirviendo!";
     } else if (distance < 40) {
-      return "Really Hot";
+      return "Realmente caliente";
     } else if (distance < 60) {
-      return "Hot";
+      return "Caliente";
     } else if (distance < 100) {
-      return "Warm";
+      return "Calentando";
     } else if (distance < 180) {
-      return "Cold";
+      return "Frio";
     } else if (distance < 360) {
-      return "Really Cold";
+      return "Realmente frio";
     } else {
-      return "Freezing!";
+      return "Congelado!";
     }
   }
