@@ -1,8 +1,4 @@
-// import {
-//   getRandomNumber,
-//   getDistance,
-//   getDistanceHint
-// } from './helper';
+import { getRandomNumber, getDistance, getDistanceHint } from './helper';
 
 
 // coordenadas del tesoro
